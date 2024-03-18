@@ -12,11 +12,19 @@ h2 {
     text-align: center;
 }
 
+li {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 p {
     color: brown;
     font-size: medium;
 }
-
-li {
-    font-style: italic;
+p::first-letter {
+    font-size: 150%;
 }

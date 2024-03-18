@@ -11,8 +11,12 @@ h2 {
     font-weight: 300;
     text-align: center;
 }
-
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
 li {
+    flex: 0 0 auto;
     font-style: italic;
 }
 a {

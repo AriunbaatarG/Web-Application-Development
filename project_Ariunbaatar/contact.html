@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sport Manager - Log In</title>
+    <title>Sport Manager - Contact</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -25,22 +25,25 @@
         </li>
       </ul>
     </nav>
-    <div class="loginpage">
-      <form action="" method="post">
-        <label for="fname">Username:</label>
-        <input type="text" id="Username" name="fname" required /><br />
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required /><br />
-        <input type="submit" value="Log In" />
+    <div class="contactform">
+      <form id="contactForm">
+        <h2>Contact Us</h2>
+
+        <label for="contactReason">Reason for contacting:</label>
+        <select id="contactReason" name="contactReason">
+          <option value="login">Support</option>
+          <option value="signup">Sales</option>
+          <option value="payment">Feedback</option>
+          <option value="other">Other</option>
+        </select>
+        <br />
+
+        <label for="detail">Details:</label>
+        <textarea id="detail" name="detail" rows="1" cols="10"></textarea><br />
+
+        <button type="submit">Submit</button>
       </form>
-      <a href="signup.html"><button>Register/Sign-Up</button></a>
     </div>
-
-    <div class="clubmanager">
-      <h2>Are you a club manager instead?</h2>
-      <a href="create-event.html"><button>Create Event/Club</button></a>
-    </div>
-
     <div class="footer">
       Ariunbaatar Ganbaatar. Web Application Development. Copyright @ 2024
     </div>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sport Manager - Create Event</title>
+    <title>Sport Manager - Sign up</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,9 +26,8 @@
       </ul>
     </nav>
     <div class="signupform">
-      <h2>Create Club/Event</h2>
-      <form id="event-form" action="" method="post">
-        <h3>Coordinator Information</h3>
+      <h2>User Information</h2>
+      <form action="" method="post">
         <label for="fname">First Name:</label>
         <input type="text" id="fname" name="fname" required /><br />
 
@@ -42,50 +41,45 @@
         <input type="text" id="phonenumber" name="phonenumber" required />
         <br />
 
-        <h3>Event Information</h3>
+        <label for="address">Address:</label> <br />
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street" required /><br />
 
-        <label for="sport">Sport</label>
-        <select id="sport" name="sport">
-          <option value="Basketball">Basketball</option>
-          <option value="Football">Football</option>
-          <option value="Volleyball">Volleyball</option>
-          <option value="Cricket">Cricket</option>
-          <option value="Tennis">Tennis</option>
-        </select>
-        <br />
+        <label for="housenumber">House Number:</label>
+        <input type="text" id="housenumber" name="housenumber" required /><br />
 
-        <label for="start-time">Start Time:</label>
+        <label for="post-code">Post Code:</label>
+        <input type="text" id="postcode" name="postcode" required /><br />
+
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required /><br />
+
+        <h2>Credit Card Information</h2>
+        <label for="card-number">Card Number:</label>
+        <input type="text" id="card-number" name="card-number" required /><br />
+
+        <label for="exp-date">Expiration Date:</label>
         <input
-          type="datetime-local"
-          id="start-time"
-          name="start-time"
+          type="text"
+          id="exp-date"
+          name="exp-date"
+          placeholder="MM/YY"
           required
         /><br />
 
-        <label for="end-time">End Time:</label>
-        <input
-          type="datetime-local"
-          id="end-time"
-          name="end-time"
-          required
-        /><br />
-
-        <label for="latitude">Latitude:</label>
-        <input type="text" id="latitude" name="latitude" required /><br />
-
-        <label for="longitude">Longitude:</label>
-        <input type="text" id="longitude" name="longitude" required /><br />
-
-        <label for="place">Place:</label>
-        <input type="text" id="place" name="place" required /><br />
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv" required /><br />
 
         <input type="submit" value="Submit" />
       </form>
-      <br />
     </div>
+    <div class="help">
+      <h3>Need Help?</h3>
+      <p>Contact us for assistance with signing up or creating an event.</p>
+    </div>
+
     <div class="footer">
       Ariunbaatar Ganbaatar. Web Application Development. Copyright @ 2024
     </div>
-    <script src="addEvent.js"></script>
   </body>
 </html>

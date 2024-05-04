@@ -1,0 +1,68 @@
+{
+  "games": [
+    {
+      "sport": "Basketball",
+      "start_time": "2024-05-03T09:00:00",
+      "end_time": "2024-05-03T11:00:00",
+      "location": {
+        "latitude": 52.52,
+        "longitude": 13.405
+      },
+      "place": "Bremen Hall",
+      "organizer": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "email": "john.doe@example.com",
+        "phone_number": "+1234567890"
+      }
+    },
+    {
+      "sport": "Football",
+      "start_time": "2024-05-03T16:00:00",
+      "end_time": "2024-05-03T18:00:00",
+      "location": {
+        "latitude": 51.0504,
+        "longitude": 13.7373
+      },
+      "place": "Dresden Hall",
+      "organizer": {
+        "first_name": "Alice",
+        "last_name": "Smith",
+        "email": "alice.smith@example.com",
+        "phone_number": "+1987654321"
+      }
+    },
+    {
+      "sport": "Basketball",
+      "start_time": "2024-05-03T20:00:00",
+      "end_time": "2024-05-03T22:00:00",
+      "location": {
+        "latitude": 53.0793,
+        "longitude": 8.8017
+      },
+      "place": "Berlin Hall",
+      "organizer": {
+        "first_name": "Bob",
+        "last_name": "Johnson",
+        "email": "bob.johnson@example.com",
+        "phone_number": "+1122334455"
+      }
+    },
+    {
+      "sport": "Volleyball",
+      "start_time": "2024-05-03T20:00:00",
+      "end_time": "2024-05-03T22:00:00",
+      "location": {
+        "latitude": 48.1371,
+        "longitude": 11.5754
+      },
+      "place": "Munich Hall",
+      "organizer": {
+        "first_name": "Emma",
+        "last_name": "Brown",
+        "email": "emma.brown@example.com",
+        "phone_number": "+9876543210"
+      }
+    }
+  ]
+}

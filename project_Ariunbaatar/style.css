@@ -1,0 +1,136 @@
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  color: #000000;
+  margin: 0 0;
+}
+h1 {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+a {
+  color: white;
+}
+nav {
+  padding: 0.1rem 2rem;
+  background-color: black;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-links {
+  display: flex;
+  gap: 30px;
+}
+.banner {
+  text-align: center;
+  font-size: small;
+  color: green;
+}
+.hero-section {
+  background-image: url("./hero_picture.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40rem;
+  background-color: #cccccc;
+}
+
+.hero-text {
+  text-align: center;
+  color: black;
+  padding-top: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: larger;
+}
+
+.games {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.games button {
+  padding: 1rem;
+  font-size: large;
+  font-weight: 500;
+}
+.footer {
+  text-align: center;
+  font-size: small;
+  padding-bottom: 2rem;
+}
+.loginpage {
+  width: 200px;
+  margin: 4rem auto;
+  text-align: center;
+  border-style: solid;
+  padding: 3rem;
+  border-radius: 10px;
+}
+input {
+  width: 100%;
+  margin: 10px 0;
+  border-style: groove;
+  padding: 5px 0;
+}
+label {
+  font-size: larger;
+}
+
+.clubmanager {
+  border-style: groove;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 2rem 2rem;
+  font-size: small;
+  background-color: antiquewhite;
+}
+.clubmanager button {
+  padding: 0.5rem;
+  font-size: smaller;
+  font-weight: 500;
+}
+
+.signupform {
+  width: 70%;
+  margin: 3rem auto;
+  text-align: center;
+  border-style: solid;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: small;
+}
+.help {
+  text-align: center;
+}
+
+.contactform {
+  width: 33%;
+  margin: 3rem auto;
+  text-align: center;
+  border-style: solid;
+  padding: 2rem;
+  border-radius: 10px;
+  font-size: small;
+}
+
+.contactform label {
+  padding: 5rem 2rem;
+}
+
+#mapid {
+  height: 400px;
+  width: 600px;
+  margin: auto auto;
+}

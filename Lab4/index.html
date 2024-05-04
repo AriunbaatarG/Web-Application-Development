@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sport-Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  </head>
+  <body>
+    <div class="boxSize">
+      <h1>Box Size</h1>
+      <label for="boxWidth">Width:</label>
+      <input type="number" id="boxWidth" /> px
+
+      <label for="boxHeight">Height:</label>
+      <input type="number" id="boxHeight" /> px
+
+      <button class="setWidthHeight">Set Width/Height</button>
+    </div>
+    <hr />
+    <div class="boxBorder">
+      <h1>Box Border</h1>
+      <label for="borderWidth">Width:</label>
+      <input type="number" id="borderWidth" /> px
+      <button>Set Border Size</button>
+
+      <br />
+      <label for="borderColor">Border Color:</label>
+      <button class="button_color_green">Green</button>
+      <button class="button_color_red">Red</button>
+      <button class="button_color_orange">Orange</button>
+
+      <br />
+      <label for="borderStyle">Border Style:</label>
+      <button class="button_style">Solid</button>
+      <button class="button_style">Dotted</button>
+      <button class="button_style">Dashed</button>
+    </div>
+    <hr />
+    <div class="boxBackgroundColor">
+      <h1>Box Background Color</h1>
+      <label for="borderBackgroundColor">Box Background Color:</label>
+      <button class="border_color_green">Green</button>
+      <button class="border_color_red">Red</button>
+      <button class="border_color_orange">Orange</button>
+    </div>
+    <hr />
+    <div id="box"></div>
+    <script src="dynamic.js"></script>
+  </body>
+</html>

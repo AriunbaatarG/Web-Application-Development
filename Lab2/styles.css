@@ -1,0 +1,38 @@
+.top-panel {
+    background-color: aqua;
+    padding: 2rem;
+    text-align: center;
+    font-size: larger;
+}
+
+.middle-part {
+    display: flex;
+}
+
+.left-panel {
+    background-color: red;
+    width: 33%;
+    height: 500px;
+    padding: 4rem 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: greenyellow;
+}
+
+.left-panel ul {
+    list-style: lower-roman;
+}
+
+.right-panel {
+    background-color: blueviolet;
+    width: 66%;
+    height: 500px;
+    padding: 4rem 6rem;
+    color: darksalmon;
+    text-align: center;
+}
+
+.right-panel p {
+    font-size: large;
+    font-weight: 700;
+}

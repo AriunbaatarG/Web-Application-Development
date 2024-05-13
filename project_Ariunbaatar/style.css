@@ -31,6 +31,8 @@ nav ul {
   gap: 30px;
 }
 .banner {
+  position: relative;
+  left: 0;
   text-align: center;
   font-size: small;
   color: green;
@@ -71,12 +73,14 @@ nav ul {
   padding-bottom: 2rem;
 }
 .loginpage {
+  position: relative; /* Position the canvas */
   width: 200px;
   margin: 4rem auto;
   text-align: center;
   border-style: solid;
   padding: 3rem;
   border-radius: 10px;
+  z-index: 1; /* Ensure form appears above canvas */
 }
 input {
   width: 100%;
@@ -87,7 +91,6 @@ input {
 label {
   font-size: larger;
 }
-
 .clubmanager {
   border-style: groove;
   text-align: center;
@@ -158,4 +161,34 @@ label {
 
 .game button:hover {
   background-color: #0056b3;
+}
+
+.paymentpage {
+  display: flex;
+  margin: 10px 10px;
+  margin-top: 50px;
+}
+
+#paymentInfo {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-left: 20px;
+  width: 300px;
+  flex: 1;
+}
+
+#paymentForm {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.cardinfo {
+  text-align: center;
+  flex: 2;
+}
+#canvas {
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  display: block;
 }

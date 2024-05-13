@@ -29,13 +29,22 @@ function showPosition(position) {
   map.setView([latitude, longitude], 13);
 
   addGameMarkers();
+}
+function animateBanner() {
+  var banner = document.querySelector(".banner");
+  banner.style.left = "-100%";
+  var pos = -100;
+  var speed = 1;
 
-  $("html, body").animate(
-    {
-      scrollTop: $("#mapid").offset().top,
-    },
-    1000
-  );
+  function updatePosition() {
+    pos += speed;
+    banner.style.left = pos + "%";
+    if (pos >= 100) {
+      pos = -100;
+    }
+  }
+
+  setInterval(updatePosition, 50);
 }
 
 function showError(error) {
@@ -104,3 +113,6 @@ var redMarker = L.icon({
 });
 
 getLocation();
+window.onload = function () {
+  animateBanner();
+};

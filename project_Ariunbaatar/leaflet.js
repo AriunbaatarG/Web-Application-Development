@@ -29,6 +29,13 @@ function showPosition(position) {
   map.setView([latitude, longitude], 13);
 
   addGameMarkers();
+
+  $("html, body").animate(
+    {
+      scrollTop: $("#mapid").offset().top,
+    },
+    1000
+  );
 }
 
 function showError(error) {
